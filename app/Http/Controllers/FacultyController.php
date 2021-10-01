@@ -52,9 +52,7 @@ class FacultyController extends Controller
 
         }catch(Exception $e){
             return redirect()->route('faculties.index')->with('success','Item Created Successfully but cannot send the email');
-        }
-
-        
+        }        
         
     }
 
